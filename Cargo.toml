@@ -13,7 +13,3 @@ cmake = "0.1"
 [lib]
 name = "nam"
 path = "src/lib.rs"
-
-[[bin]]
-name = "nam-bin"
-path = "src/main.rs"

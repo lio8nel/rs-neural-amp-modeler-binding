@@ -1,0 +1,19 @@
+[package]
+name = "nam-wrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.2.13"
+bindgen = "0.69"
+cmake = "0.1"
+
+[lib]
+name = "nam"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nam-bin"
+path = "src/main.rs"
